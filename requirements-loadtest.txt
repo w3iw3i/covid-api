@@ -1,2 +1,2 @@
 requests
-locust==1.4.4
+locust
