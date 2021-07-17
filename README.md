@@ -6,7 +6,7 @@ A simple API that is build using FastAPI, Postgres database and Docker technolog
 
 Clone the repo and ensure that the project is setup correctly. To get started with this project, you would need to have downloaded and installed Docker. Refer to [Docker's Getting Started Page](https://docs.docker.com/get-started/) for more details.  
 
-To setup the dataset, navigate to the data folder and run "python load.py". This will run a data processing script and output a master.csv and a country.csv file in the data folder 
+To setup the dataset, create a data folder in your project directory, navigate to this folder and run "python load.py". This will run a data processing script that output a master.csv and a country.csv file into the folder.
 
 For privacy reasons, the passwords and usernames in certain areas have been filled with placeholder values. Please fill in the data in .envtocustomise and rename the file to ".env"
 
